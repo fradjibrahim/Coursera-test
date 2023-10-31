@@ -38,3 +38,20 @@ p {
     text-align: left;
     padding-left: 12px;
 }
+
+
+/* For desktop  */
+@media (min-width: 992px) {
+
+    div {
+        display: flex; 
+    }
+
+    #chicken, #beef, #sushi {
+        background-color: grey;
+        border: 3px solid black;
+        max-width: 33.33%;
+        margin: 15px;
+        display: block;
+    }
+}
